@@ -1,0 +1,46 @@
+.representative {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 25%;
+    background-color: rgb(244, 238, 238);
+    padding: 3%;
+}
+
+.rep-info {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    border: 5px solid darkred;
+    padding: 1em;
+    justify-content: space-evenly;
+}
+
+.rest-of-info {
+    margin: 0px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "helvetica";
+}
+
+#pic {
+    width: auto;
+    height: 100%;
+}
+
+.bills {
+    border: 2px dashed lightblue;
+    text-align: left;
+    padding: 1em;
+    font-family: "helvetica";
+}
+
+.committees {
+    border: 2px dashed lightblue;
+    text-align: left;
+    padding: 1em;
+    font-family: "helvetica";
+}
+
+/* .bills__elem {
+    text-align: left;
+} */
